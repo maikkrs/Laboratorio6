@@ -5,25 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página 2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Index</a>
+          <a class="navbar-brand" href="index.html">Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " href="pagina1.html">Página 1</a>
+                <a class="nav-link " href="pagina1.html">Tipos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page"  href="pagina2.html">Página 2</a>
+                <a class="nav-link active" aria-current="page"  href="pagina2.html">Elaboración</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pagina3.html">Página 3</a>
+                <a class="nav-link" href="pagina3.html">Empresas</a>
               </li>
             </ul>
           </div>
@@ -31,39 +32,60 @@
     </nav>
 
     <div class="d-flex flex-column align-items-center">
-        <h1>Elaboración de videojuegos</h1>
-        <p class="align-self-center m-5">
+        <h1 class="m-5">Elaboración de videojuegos</h1>
+        <p class="align-self-center mb-5 w-75">
             Los videojuegos son productos complejos que implican la integración de diferentes componentes para crear una experiencia de juego satisfactoria para el usuario. Algunos de los componentes clave son la jugabilidad, la narrativa, el diseño gráfico y de sonido, la programación y la tecnología. 
         </p>
     
-        <div class="container">
+        <div class="container mb-2">
             <div class="row">
-                <div class="col-4">
-                  <div id="list-example" class="list-group">
+                <div class="col-4" >
+                  <div id="lista" class="list-group">
                     <a class="list-group-item list-group-item-action" href="#item1">Jugabilidad</a>
                     <a class="list-group-item list-group-item-action" href="#item2">Narrativa</a>
                     <a class="list-group-item list-group-item-action" href="#item3">Diseño</a>
                     <a class="list-group-item list-group-item-action" href="#item4">Tecnología</a>
                   </div>
                 </div>
-                <div class="col-8">
-                  <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <div class="col-8 w-50">
+                  <div data-bs-spy="scroll" data-bs-target="#lista" data-bs-offset="21" class="scrollspy-example overflow-auto" style="height: 280px; position: relative;" tabindex="0">
                     <h4 id="item1">Jugabilidad</h4>
                     <p>La jugabilidad es un término que se refiere a la mecánica y la experiencia de juego de un videojuego. En otras palabras, es cómo el jugador interactúa con el juego y cómo se siente mientras lo juega. La jugabilidad puede incluir elementos como los controles, la movilidad del personaje, la dificultad, la recompensa, la inteligencia artificial, entre otros aspectos. Una buena jugabilidad es esencial para crear un juego atractivo y divertido para el usuario, ya que le permite sentirse inmerso en el mundo del juego y disfrutar de una experiencia de juego satisfactoria. Un juego con una jugabilidad deficiente puede hacer que el jugador se sienta frustrado, aburrido o desanimado. Por lo tanto, los desarrolladores de videojuegos ponen una gran cantidad de tiempo y esfuerzo en la creación de mecánicas de juego que sean fáciles de entender, pero que a la vez presenten un desafío interesante y variado para el jugador. </p>
                     <h4 id="item2">Narrativa</h4>
-                    <p>...</p>
+                    <p>La narrativa en un videojuego se refiere a la historia que se cuenta a través del juego y cómo se presenta al jugador. A diferencia de otros medios como el cine o la literatura, en los videojuegos la narrativa se integra directamente con la jugabilidad, ya que el jugador es el protagonista de la historia y toma decisiones que afectan el resultado de la trama. Una buena narrativa en un videojuego puede ser esencial para crear una experiencia de juego emocionante y satisfactoria, ya que puede involucrar al jugador en una historia atractiva y convincente. Además, la narrativa puede proporcionar un contexto para la jugabilidad, creando un sentido de propósito y significado en las acciones del jugador. Los desarrolladores de videojuegos a menudo trabajan con escritores y guionistas para crear una narrativa sólida y coherente que se adapte bien a la mecánica del juego.</p>
                     <h4 id="item3">Diseño</h4>
-                    <p>...</p>
+                    <p>El diseño de un videojuego se refiere a cómo se ve y se siente el juego, incluyendo el diseño de personajes, escenarios, objetos y la interfaz de usuario. El diseño gráfico y visual es fundamental para crear un mundo inmersivo y atractivo para el jugador, y a menudo se utiliza para establecer el tono y el estilo del juego. Además, el diseño de sonido también es importante para la experiencia del jugador, ya que puede crear un ambiente inmersivo y ayudar a guiar al jugador a través del juego. Un buen diseño de juego puede crear una sensación de cohesión y armonía entre los diferentes elementos del juego, lo que puede hacer que el juego sea más atractivo y satisfactorio para el jugador. Los desarrolladores de videojuegos pueden utilizar diferentes herramientas y técnicas para lograr un diseño efectivo, como el uso de paletas de colores cuidadosamente seleccionadas, animaciones detalladas y modelos 3D. </p>
                     <h4 id="item4">Tecnología</h4>
-                    <p>...</p>
+                    <p>La tecnología en los videojuegos se refiere al hardware y software utilizados para crear y jugar juegos. Los desarrolladores de videojuegos utilizan tecnología avanzada para crear mundos virtuales cada vez más complejos y realistas, desde motores de juego para renderizar gráficos detallados hasta sistemas de inteligencia artificial para crear personajes no jugables convincentes. La tecnología también ha permitido la creación de nuevos géneros de juegos, como los juegos de realidad virtual y aumentada, que ofrecen experiencias de juego aún más inmersivas. Los jugadores también pueden disfrutar de los juegos utilizando la última tecnología, como consolas de juegos de alta gama, computadoras potentes y dispositivos móviles avanzados.</p>
                   </div>
                 </div>
               </div>
         </div>
+        <h2 class="mt-5">Juegos sobresalientes</h2>
+        <div class="card-group m-5" style="width: 50%;">
+            <div class="card">
+              <img class="card-img-top" src="p2/ch.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Cuphead</h5>
+                <p class="card-text" style="text-align: justify;">Cuphead es un videojuego que destaca por su estilo visual y sonoro único que se inspira en los dibujos animados de la década de 1930. La combinación de una estética única y una jugabilidad desafiante ha convertido a Cuphead en un título muy querido por los jugadores y en un éxito comercial.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="p2/it2.jpg">
+              <div class="card-body">
+                <h5 class="card-title">It Takes Two</h5>
+                <p class="card-text" style="text-align: justify;">It Takes Two sobresale por su originalidad y creatividad en la jugabilidad y la narrativa. El juego presenta una variedad de mecánicas de juego únicas, lo que permite a los jugadores experimentar de manera diferente cada uno de los niveles y resolver los puzzles. La narrativa es una mezcla de drama y comedia que se enfoca en la relación entre los personajes principales, lo que le da un toque emocional a la experiencia de juego.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="p2/sl.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Superliminal</h5>
+                <p class="card-text" style="text-align: justify;">Superliminal es un juego de puzles en primera persona que se destaca por su enfoque en la perspectiva y la percepción. El juego presenta una mecánica de juego única que permite al jugador manipular la perspectiva para resolver los puzles y avanzar en el juego. Además, el juego utiliza el espacio en blanco y negro para crear un ambiente onírico y surrealista, lo que le da un toque artístico y visualmente atractivo. La combinación de una mecánica de juego original y una estética visual única ha convertido a Superliminal en un título muy apreciado por los amantes de los juegos de puzles.</p>
+              </div>
+            </div>
     </div>
     
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
