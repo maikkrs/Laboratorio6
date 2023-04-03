@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Index</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pagina1.html">Página 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina2.html">Página 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina3.html">Página 3</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+   
+    <br><br><h1 class="text-center">Tipos de videojuegos</h1><br><br>
+    <div class="container ">
+        <div class="accordion" id="juegos">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="prim">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#uno" aria-expanded="true" aria-controls="uno">
+                  Acción
+                </button>
+              </h2>
+              <div id="uno" class="accordion-collapse collapse show" aria-labelledby="prim" data-bs-parent="#juegos">
+                <div class="accordion-body">
+                    Los juegos de acción son probablemente el género más popular, ya que se enfocan en la emoción y la adrenalina de enfrentar desafíos y situaciones de alta intensidad. Los juegos de acción suelen tener una trama interesante y emocionante, con personajes carismáticos y peligrosos enemigos. En estos juegos, el jugador debe enfrentarse a situaciones intensas, como combates cuerpo a cuerpo, tiroteos, persecuciones y exploración de mundos complejos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="sec">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dos" aria-expanded="false" aria-controls="dos">
+                  Aventura
+                </button>
+              </h2>
+              <div id="dos" class="accordion-collapse collapse" aria-labelledby="sec" data-bs-parent="#juegos">
+                <div class="accordion-body">
+                    Los juegos de aventura son un género emocionante que se enfoca en la exploración de mundos vastos y fascinantes. En estos juegos, el jugador asume el papel de un personaje principal que debe avanzar a través de una trama interesante mientras resuelve acertijos, combate enemigos y explora lugares únicos. Los juegos de aventura suelen contar con una ambientación visualmente atractiva y detallada, y a menudo se centran en la exploración, el descubrimiento y el desarrollo del personaje.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="thi">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tres" aria-expanded="false" aria-controls="tres">
+                    RPG (Juegos de rol)
+                </button>
+              </h2>
+              <div id="tres" class="accordion-collapse collapse" aria-labelledby="thi" data-bs-parent="#juegos">
+                <div class="accordion-body">
+                    Los juegos de rol son otro género muy popular que se enfoca en la construcción de personajes y la exploración de mundos detallados. En estos juegos, el jugador asume el papel de un personaje en un mundo de fantasía, ciencia ficción o incluso en una versión alternativa de nuestro mundo. Los juegos de rol suelen tener una trama profunda y rica en detalles, así como una jugabilidad basada en la toma de decisiones y la personalización del personaje. El jugador puede elegir cómo desarrollar al personaje a lo largo del juego, mejorando sus habilidades, adquiriendo equipo y avanzando en la trama. Los juegos de rol también pueden incluir elementos de acción y estrategia, dependiendo del enfoque del juego.
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <br><br><br>
+    <h2 class="text-center">Algunos ejemplos de cada género:</h1>
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="p1/gears.jpeg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-black">Gears of Wars 5</h5>
+                  <p class="text-black">Gears of War 5 es un juego de acción en tercera persona con intensos tiroteos y combates cuerpo a cuerpo. El jugador asume el papel de Kait Díaz en su búsqueda por salvar al mundo de una amenaza inminente y cuenta con un modo multijugador cooperativo y competitivo. El juego ofrece gráficos de alta calidad, una jugabilidad fluida y una trama emocionante.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="p1/skyrim.jpg" class="d-block w-100" >
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Skyrim</h5>
+                  <p>Skyrim es un juego de aventura de mundo abierto que permite a los jugadores explorar la vasta región de Skyrim mientras cumplen misiones y descubren secretos ocultos. El jugador asume el papel de un personaje personalizado y puede elegir su camino a través del juego, ya sea luchando contra dragones y monstruos, comerciando con personajes no jugables o mejorando sus habilidades y magia. Con una ambientación impresionante y una jugabilidad profunda y variada, Skyrim es una experiencia de aventura inolvidable.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="p1/poe.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Path Of Exile</h5>
+                  <p>Path of Exile es un RPG en línea donde el jugador asume el papel de un personaje exiliado en un mundo oscuro, luchando contra enemigos y adquiriendo habilidades y equipo. El juego ofrece un amplio sistema de personalización de personajes y una economía de juego basada en objetos, lo que lo convierte en una experiencia de rol en línea emocionante y gratificante.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+</body>
+</html>
